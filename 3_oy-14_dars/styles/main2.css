@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: rgb(112, 185, 216);
+}
+#stick {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 24px;
+  gap: 24px;
+}
+.note {
+  background-color: #fff;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+}
+.stick-note {
+  height: 200px;
+  border: none;
+  background: rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 120px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.add-note:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
